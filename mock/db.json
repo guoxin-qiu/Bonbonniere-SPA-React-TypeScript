@@ -1,0 +1,22 @@
+{
+  "WeatherForecasts": [
+    {
+      "dateFormatted": "first",
+      "temperatureC": 3,
+      "temperatureF": 5,
+      "summary": "s1"
+    },
+    {
+      "dateFormatted": "second",
+      "temperatureC": 6,
+      "temperatureF": 9,
+      "summary": "s2"
+    },
+    {
+      "dateFormatted": "third",
+      "temperatureC": 11,
+      "temperatureF": 17,
+      "summary": "s3"
+    }
+  ]
+}

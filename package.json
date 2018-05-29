@@ -20,7 +20,7 @@
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom --watchAll",
     "eject": "react-scripts-ts eject",
-    "server": "node scripts/mock-server/index.js",
+    "server": "node mock/json-server.js",
     "start": "concurrently \"npm run server\" \"npm run dev\""
   },
   "devDependencies": {
@@ -34,6 +34,7 @@
     "@types/redux-logger": "3.0.6",
     "concurrently": "3.5.1",
     "express": "4.16.3",
+    "json-server": "0.12.2",
     "typescript": "2.8.3"
   }
 }
