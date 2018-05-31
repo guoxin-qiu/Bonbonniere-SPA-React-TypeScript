@@ -4,7 +4,7 @@ Start
 
 ```npm
 npm i create-react-app
-npm create-react-app bonbonniere-spa-react
+npm create-react-app bonbonniere-spa-react --scripts-version=react-scripts-ts
 cd bonbonniere-spa-react
 npm start
 ```

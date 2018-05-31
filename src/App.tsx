@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Redirect, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 
 import Counter from './components/Counter';
 import FetchData from './components/FetchData';
@@ -10,23 +10,25 @@ import Layout from './components/Layout';
 export default class App extends React.Component<{}, {}> {
   public render() {
     return (
-      <Layout>
-        <Switch>
-          <Route exact={true} path="/" component={Home} />
-          <Route exact={false} path="/counter" component={Counter} />
-          <Route
-            exact={false}
-            path="/fetchdata/:startDateIndex?"
-            component={FetchData}
-          />
-          <Route
-            exact={false}
-            path="/product"
-            component={FilterableProductTable}
-          />
-          <Redirect to="/" />
-        </Switch>
-      </Layout>
+      <BrowserRouter>
+        <Layout>
+          <Switch>
+            <Route exact={true} path="/" component={Home} />
+            <Route exact={false} path="/counter" component={Counter} />
+            <Route
+              exact={false}
+              path="/fetchdata/:startDateIndex?"
+              component={FetchData}
+            />
+            <Route
+              exact={false}
+              path="/product"
+              component={FilterableProductTable}
+            />
+            <Redirect to="/" />
+          </Switch>
+        </Layout>
+      </BrowserRouter>
     );
   }
 }
