@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 
+import Calculator from './components/Calculator/Calculator';
 import Counter from './components/Counter';
 import FetchData from './components/FetchData';
 import FilterableProductTable from './components/FilterableProductTable';
@@ -25,6 +26,7 @@ export default class App extends React.Component<{}, {}> {
               path="/product"
               component={FilterableProductTable}
             />
+            <Route exact={true} path="/calculator" component={Calculator} />
             <Redirect to="/" />
           </Switch>
         </Layout>

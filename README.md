@@ -2,7 +2,7 @@
 
 Start
 
-```npm
+```shell
 npm i create-react-app
 npm create-react-app bonbonniere-spa-react --scripts-version=react-scripts-ts
 cd bonbonniere-spa-react
@@ -20,7 +20,7 @@ VS Code Extensions
 * Prettier
 * vscode-icons
 
-```config
+```text
 {
     "editor.formatOnSave": true,
     "[javascript]": {
@@ -37,7 +37,7 @@ VS Code Extensions
 
 Options
 
-```npm
+```sh
 npm i eslint -D
 npm i prettier eslint-config-prettier eslint-plugin-prettier -D
 npm i eslint-config-airbnb eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react -D
@@ -57,3 +57,5 @@ npm i eslint-config-airbnb eslint-plugin-jsx-a11y eslint-plugin-import eslint-pl
 * [https://prettier.io/](https://prettier.io/)
 * [https://github.com/prettier/prettier-vscode](https://github.com/prettier/prettier-vscode)
 * [https://redux-saga-in-chinese.js.org/index.html](https://redux-saga-in-chinese.js.org/index.html)
+* [http://airbnb.io/enzyme/](http://airbnb.io/enzyme/)
+* [https://testdriven.io/tdd-with-react-jest-and-enzyme-part-one](https://testdriven.io/tdd-with-react-jest-and-enzyme-part-one)

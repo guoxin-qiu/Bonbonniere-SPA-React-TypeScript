@@ -44,6 +44,11 @@ export default function NavMenu() {
                 <span className="glyphicon glyphicon-th-list" /> Product
               </NavLink>
             </li>
+            <li>
+              <NavLink exact={true} to={'/calculator'} activeClassName="active">
+                <span className="glyphicon glyphicon-th-list" /> Calculator
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>
